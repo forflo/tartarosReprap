@@ -201,7 +201,7 @@ Overridden if EEPROM activated.*/
 #define EXT0_DIR_PIN E0_DIR_PIN
 // set to false/true for normal / inverse direction
 /*
- NOOO. We fucking do not want the stepper
+ NO. We fucking do not want the stepper
  to be inverted for the extruder 0
  @author: Florian Mayer & Danisahne
  */
@@ -1230,11 +1230,16 @@ Select the language to use.
 #define UI_LANGUAGE 1
 
 // This is line 2 of the status display at startup. Change to your like.
+/*
+ Custom tartaros "mods"
+ */
 #define UI_PRINTER_NAME "Tartaros/V2"
 #define UI_PRINTER_COMPANY "built by Dani & Flo"
 
 
 /** Animate switches between menus etc. */
+
+//we do want the animation cause it's very cool!
 #define UI_ANIMATION true  //true  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 /** How many ms should a single page be shown, until it is switched to the next one.*/
